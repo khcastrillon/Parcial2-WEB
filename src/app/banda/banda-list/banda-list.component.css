@@ -1,0 +1,12 @@
+.container-fluid {
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+.tableHead {
+    background-color: white;
+}
+
+#id {
+  font-weight: bold;
+}

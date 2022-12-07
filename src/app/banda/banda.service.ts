@@ -11,6 +11,7 @@ import { Banda } from './banda';
 export class BandaService {
 
   private apiUrl: string = environment.baseURL;
+
   constructor(private http: HttpClient) { }
 
   getBandas(): Observable<Banda[]> {
